@@ -1,0 +1,76 @@
+body{
+    font-family:'Times New Roman', Times, serif ;
+    /* background :linear-gradient(lightpink 80% , white 20% ) ; */
+    margin: 0px;
+    padding: 60px ;
+}
+.container{
+    max-width: 600px;
+    margin: 50px;
+    background: white;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    align-self: center ;
+    justify-content: center;
+}
+
+
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(26, 135, 127);
+}
+
+input[type="text"]{
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+}
+
+
+button{
+    padding:10px 15px ;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 4px ;
+    cursor: pointer;
+}
+ button:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+ }
+
+
+.product-button{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product-button{
+    padding: 10px;
+    border:1px solid blue;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    flex:1 1 calc(30% - 10px) ;
+    text-align: center;
+    cursor: pointer;
+}
+.product-button.out-of-stock{
+    background-color: #dc3545;
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+
+
